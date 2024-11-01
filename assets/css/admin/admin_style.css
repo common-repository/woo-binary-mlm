@@ -1,0 +1,31 @@
+  form input:focus { 
+	background: #fff; 
+}
+
+#data_table {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  /*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+}
+
+#data_table td, #data_table th {
+  border: 1px solid #ddd;
+  padding: 4px;
+  text-align: center;
+}
+
+#data_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#data_table tr:hover {background-color: #ddd;}
+
+#data_table th {
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #0085ba;
+  color: white;
+}
+
